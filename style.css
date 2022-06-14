@@ -106,11 +106,10 @@ nav ul li a:hover {
 
 code {
     display: block;
-    min-width: 800px;
+    min-width: 500px;
     width: 500px;
     background-color: lightgray;
     color: #2b2c2c;
-    border-radius: 10px;
 }
 
 footer {
