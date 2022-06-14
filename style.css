@@ -5,7 +5,7 @@
 }
 
 body {
-    
+    background-color: #2d2e2e;
     color: white;
 }
 
@@ -64,7 +64,11 @@ header img {
 
 ul {
     list-style: none;
-    
+}
+
+nav {
+    min-width: 1000px;
+    margin-top: 30px;
 }
 
 nav ul li {
@@ -102,6 +106,7 @@ nav ul li a:hover {
 
 code {
     display: block;
+    min-width: 800px;
     width: 500px;
     background-color: lightgray;
     color: #2b2c2c;
