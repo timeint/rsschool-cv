@@ -33,7 +33,6 @@ main section {
 }
 
 header img {
-    border-radius: ;
     height: 300px;
     width: auto;
 }
@@ -106,6 +105,7 @@ code {
     width: 500px;
     background-color: lightgray;
     color: #2b2c2c;
+    border-radius: 10px;
 }
 
 footer {
