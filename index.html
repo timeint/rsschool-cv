@@ -9,20 +9,23 @@
 <body>
 <div id="shell">
     <header>
+        <div class="left-block color1"></div>
+        <div class="right-block color0">
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contacts">Contacts</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#example">Code example</a></li>
+                <li><a href="#example">My code</a></li>
                 <li><a href="#exp">Experience</a></li>
-                <li><a href="#lang">English</a></li>
+                <li><a href="#eng">English</a></li>
             </ul>
         </nav>
-        <div class="left-block color0">
-            <img src="img/mf.jpg" alt="my photo">
         </div>
-        <div class="right-block color1">
+        <div class="left-block color0">
+            <img src="img/mf.jpg" alt="my photo" width="537px" height="818px">
+        </div>
+        <div id="name" class="right-block color1">
             <h1>Maksim</h1>
             <h2>Future Frontend Developer</h2>
         </div>
@@ -34,10 +37,11 @@
             <h2>About me</h2>
         </div>
         <div class="right-block color0">
-            <p>Hello! My name is Maksim (unexpected, isn't it?). I'm changing my life last few months. 
-            I started learning English on Duolingo. I have 149 days streak for now, ~1 hour a day.
-            I also do physical exercises all this time and try to eat healthy food. 
-            I want to change my job in the future to more interesting and perspective. 
+            <p>
+            Hello! My name is Maksim (unexpected, isn't it?). I'm changing my life last few months.<br>
+            I started learning English on Duolingo. I have 149 days streak for now, ~1 hour a day.<br>
+            I also do physical exercises all this time and eat more healthy food.<br>
+            I want to change my job in the future to more interesting and perspective.<br>
             I think this course is helping me to do it, so I'm here :)
             </p>
         </div>
@@ -76,20 +80,20 @@
             <p>CodeWars: <a href="https://codewars.com/kata/5b077ebdaf15be5c7f000077">(8kyu) if you can’t sleep, just count sheep</a></p>
             <pre>
                 <code>
-                let current = ""
+        let current = ""
 
-                const countSheep = (num) => {
+        const countSheep = (num) => {
 
-                    if (num == 1) {
-                    return current = 1 + " sheep..."
-                    }
+            if (num == 1) {
+                return current = 1 + " sheep..."
+            }
   
-                    if (num > 0) {
-                    return current = current + num + " sheep..."
-                    }
+            if (num > 0) {
+                return current = current + num + " sheep..."
+            }
   
-                    return ""
-                }
+                return ""
+            }
                 </code>
             </pre>
         </div>
@@ -113,11 +117,12 @@
     </main>
 
     <footer>
-        <section>
-            <a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="rss logo" width="100px" height="50px"></a>
+        <section class="left-block color1">
+            <h2>2022</h2>
         </section>
-        <section>
-            2022 by <a href="https://github.com/timeint">timeint</a>
+        <section class="right-block color0">
+            <a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="rss logo" width="100px" height="50px"></a>
+            <p>with <a href="https://github.com/timeint">@timeint</a></p>
         </section>
     </footer>
 </div>
